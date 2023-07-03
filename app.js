@@ -38,3 +38,4 @@ console.log(magazine1.getUpperTitle());
 const pub1 = new Publication('pubblicazione1', '12/6/2020', 'fabbri');
 
 console.log(pub1.toString());
+console.log(pub1.getUpperTitle());
