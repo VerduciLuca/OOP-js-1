@@ -8,3 +8,6 @@ const book1 = {
 }
 
 const book2 = new Book('odissea', 'omero', '27/12/2010', 'einaudi');
+
+console.log(book1);
+console.log(book2);
