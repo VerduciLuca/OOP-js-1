@@ -1,6 +1,8 @@
 class Magazine{
     constructor(title, dop, publisher, issue){
-        super(title, dop, publisher);
+        this.title = title;
+        this.dop = dop;
+        this.publisher = publisher;
         this.issue = issue;
     }
 
@@ -9,7 +11,7 @@ class Magazine{
         
         return card;
     }
-
+    
     getUpperTitle() {
         const upperTitle = this.title.toUpperCase();
 
