@@ -8,6 +8,7 @@ const book1 = {
 }
 
 const book2 = new Book('odissea', 'omero', '27/12/2010', 'einaudi');
+const book3 = new Book('la divina commedia', 'dante', '27/02/1998', 'feltrinelli');
 
 console.log(book1);
 console.log(book2);
@@ -25,5 +26,5 @@ function getBookCard(book) {
 }
 console.log(getBookCard(book1));
 
-console.log(book2.getBookCard());
-console.log(book3.getBookCard());
+console.log(book2);
+console.log(book3.toString());
