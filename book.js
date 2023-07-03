@@ -12,9 +12,9 @@ class Book{
         return card;
     }
 
-    getUpperAuthor() {
-        const upperAuthor = this.author.toUpperCase();
+    getUpperTitle() {
+        const upperTitle = this.title.toUpperCase();
 
-        return upperAuthor;
+        return upperTitle;
     }
 }

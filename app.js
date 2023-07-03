@@ -28,4 +28,9 @@ console.log(getBookCard(book1));
 
 console.log(book2.toString());
 console.log(book3 + '');
-console.log(book3.getUpperAuthor());
+console.log(book3.getUpperTitle());
+
+const magazine1 = new Magazine('opera oggi', '12/6/2023', 'fabbri', 23);
+
+console.log(magazine1.toString());
+console.log(magazine1.getUpperTitle());
