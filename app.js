@@ -39,3 +39,7 @@ const pub1 = new Publication('pubblicazione1', '12/6/2020', 'fabbri');
 
 console.log(pub1.toString());
 console.log(pub1.getUpperTitle());
+
+const school1 = new schoolBook('school1', 'daniele petrelli', '23/04/2013', 'zanichelli', 'matematica', 'terza media');
+
+console.log(school1.toString());
