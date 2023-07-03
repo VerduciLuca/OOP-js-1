@@ -26,5 +26,6 @@ function getBookCard(book) {
 }
 console.log(getBookCard(book1));
 
-console.log(book2);
-console.log(book3.toString());
+console.log(book2.toString());
+console.log(book3 + '');
+console.log(book3.getUpperAuthor());

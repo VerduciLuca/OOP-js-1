@@ -11,4 +11,10 @@ class Book{
         
         return card;
     }
+
+    getUpperAuthor() {
+        const upperAuthor = this.author.toUpperCase();
+
+        return upperAuthor;
+    }
 }
