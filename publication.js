@@ -10,4 +10,10 @@ class Publication{
         
         return card;
     }
+
+    getUpperTitle() {
+        const upperTitle = this.title.toUpperCase();
+
+        return upperTitle;
+    }
 }
