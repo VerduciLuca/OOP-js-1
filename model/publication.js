@@ -1,7 +1,11 @@
 class Publication{
     constructor(title, dop, publisher){
         this.title = title;
-        this.dop = dop;
+        const dopArray = dop.split('/');
+        const year = parseInt(dopArray[2]);
+        const month = parseInt(dopArray[1]) - 1;
+        const day = parseInt(dopArray[0]);
+        this.dop = new Date(year, month, day);
         this.publisher = publisher;
     }
 

@@ -1,4 +1,4 @@
-class schoolBook extends Book{
+class SchoolBook extends Book{
     constructor(title, author, dop, publisher, subject, grade){
         super(title, author, dop, publisher);
         this.subject = subject;
