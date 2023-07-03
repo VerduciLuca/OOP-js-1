@@ -1,9 +1,7 @@
 class Book{
     constructor(title, author, dop, publisher){
-        this.title = title;
+        super(title, dop, publisher);
         this.author = author;
-        this.dop = dop;
-        this.publisher = publisher;
     }
 
     toString() {
