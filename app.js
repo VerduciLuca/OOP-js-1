@@ -34,3 +34,7 @@ const magazine1 = new Magazine('opera oggi', '12/6/2023', 'fabbri', 23);
 
 console.log(magazine1.toString());
 console.log(magazine1.getUpperTitle());
+
+const pub1 = new Publication('pubblicazione1', '12/6/2020', 'fabbri');
+
+console.log(pub1.toString());
