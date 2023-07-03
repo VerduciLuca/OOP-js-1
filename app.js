@@ -2,7 +2,9 @@ console.log('oop');
 
 const book1 = {
     title: 'iliade',
-    authors: ['omero'],
+    author: ['omero'],
     dop: '27/12/2009',
     publisher: 'einaudi'
 }
+
+const book2 = new Book('odissea', 'omero', '27/12/2010', 'einaudi');
