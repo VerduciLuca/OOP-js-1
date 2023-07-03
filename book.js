@@ -5,4 +5,10 @@ class Book{
         this.dop = dop;
         this.publisher = publisher;
     }
+
+    getBookCard(book) {
+        const card = 'Titolo: ' + this.title + '\n' + 'Autore: ' + this.author + '\n' + 'Data di pubblicazione: ' + this.dop + '\n' + 'Casa editrice: ' + this.publisher + '\n';
+        
+        return card;
+    }
 }
